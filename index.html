@@ -1,0 +1,650 @@
+
+<!DOCTYPE html>
+<html lang="es-CL">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <!--
+        <figure class="avatar-box">
+          <img src="./assets/images/Imagen-cv.jpg" alt="Bastián Bouffanais" width="80">
+        </figure>
+        -->
+        <div class="info-content">
+          <h1 class="name" title="Bastián Bouffanais" id="name"></h1>
+
+          <p class="title" id="rol"></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contacto</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:bastibouffanais@gmail.com" class="contact-link" id="email"></a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a target="_blank" href="https://www.linkedin.com/in/bastián-andre-bouffanais-gutiérrez-aa0141210/" class="contact-link" id="linkedin"></a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a target="_blank" href="https://github.com/Bastian-Bouffanais" class="contact-link" id="github"></a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Cumpleaños</p>
+
+              <time datetime="1982-06-23">5 de julio, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Locación</p>
+
+              <address>San Miguel, Santiago, Chile</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+      </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active about" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link resume" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link portfolio" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          
+
+        </ul>
+
+      </nav>
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mí</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Estudiante en Duoc San Joaquín. Mi inclinación natural hacia el aprendizaje autodidacta y el desarrollo de proyectos me ha llevado a buscar constantemente nuevas oportunidades para poner a prueba mis conocimientos.
+          </p>
+
+          <p>
+            Actualmente, cursando el último semestre de mi carrera, Ingeniería en Informática en Duoc UC de San Joaquín, un programa de 4 años.
+          </p>
+          <p>
+            Además, tuve el privilegio de poder obtener una certificacion Azure DP-900. Esta experiencia no solo amplió mis conocimientos, sino que también consolidó mi comprensión de las tecnologías clave en el ámbito cloud.
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">¿Qué estoy estudiando?</h3>
+
+          <ul class="service-list">
+
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" id="desarrollo"></h4>
+
+                <p class="service-item-text">
+                  Para realizar diversos proyectos de manera profesional.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-open-source.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" id="opensource"></h4>
+
+                <p class="service-item-text">
+                  Aprendo a utilizar proyectos de código abierto para mejorar mis habilidades e implementar soluciones a partir de ellos.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <!--
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recomendaciones</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="" alt="" width="10" 
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title></h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    ""
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+        -->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="10" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Escuelas</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/duoc.svg" alt="client logo" height="200" >
+              </a>
+            </li>
+
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Educación</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educación</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto Profesional Duoc Uc</h4>
+
+              <span>2021 — En curso</span>
+
+              <p class="timeline-text">
+                Ingeniería en Informática
+              </p>
+
+              <p class="timeline-text">
+                aptitudes:<span>&emsp;&emsp;&emsp;&emsp;- desarrollo de software fullstack, web y mobile <br>&emsp;&emsp;&emsp;&emsp;- revisión de código <br>&emsp;&emsp;&emsp;&emsp;- bases de datos relacionales y no relacionales <br>&emsp;&emsp;&emsp;&emsp;- investigación independiente <br>&emsp;&emsp;&emsp;&emsp;- gestión de proyectos </span>
+                
+              </p>
+
+            </li>
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colegio Santo Cura de Ars</h4>
+
+              <span> — 2021</span>
+
+              <p class="timeline-text">
+                Educación media
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiencia y Actividades</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> 
+                desarrollo independiente de páginas web - 2024
+              </h4>
+
+              <span>Junio - Presente 2024</span>
+
+              <p class="timeline-text">
+                creación de la pagina web para el SIMIN (Simposium de mineria), para la Universidad de Santiago de Chile.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> 
+                ayudantias Ingeniería en Informática - 2024
+              </h4>
+
+              <span>Junio - Julio 2024</span>
+
+              <p class="timeline-text">
+                tutor de clases de repaso durante el periodo de examenes, de los ramos: programación de base de datos e Ingeniería de software.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> 
+                alumno track CITT - 2024
+              </h4>
+
+              <span>Marzo - Julio 2024</span>
+
+              <p class="timeline-text">
+                encargado de coordinar las actividades del track de videojuegos, ademas de organizar eventos, capacitando a alumnos y docentes en los talleres en la creación de videojuegos utilizando Gamemaker2, y la creación de assets 2D y 3D utilizando Blender en conjunto con Krita
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mis Habilidades</h3>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-python"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+  
+                <h5 class="h3 timeline-item-title">Python</h5>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-html5"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <h5 class="h3 timeline-item-title">Html</h5>
+  
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-css3"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <h5 class="h3 timeline-item-title">CSS</h5>
+  
+              </div>
+  
+            </li>
+
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-javascript"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <h5 class="h3 timeline-item-title">JavaScript</h5>
+  
+              </div>
+  
+            </li>
+
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-nodejs"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <h5 class="h3 timeline-item-title">Node Js</h5>
+  
+              </div>
+  
+            </li>
+  
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portafolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Diseño web</button>
+            </li>
+
+           
+
+            <!--
+            <li class="filter-item">
+              <button data-filter-btn>JavaScript</button>
+            </li>
+            -->
+
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Selecciona una categoría</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Todos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Diseño web</button>
+              </li>
+
+              <!--
+              <li class="select-item">
+                <button data-select-item>JavaScript</button>
+              </li>
+              -->
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="diseño web">
+              <a href="https://github.com/Bastian-Bouffanais/bastian-bouffanais.github.io" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pagina_web.png" alt="Pagina" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pagina web Personal</h3>
+
+                <p class="project-category">Diseño web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="diseño web">
+              <a href="https://simin2025.cl" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pagina_web_simin.png" alt="Pagina" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SIMIN 2025 - en desarrollo</h3>
+
+                <p class="project-category">Diseño web</p>
+
+              </a>
+            </li>
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="javascript">
+              <a href="" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="" alt="bot_personal" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">WWJS_Bot</h3>
+
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+            -->
+            
+          </ul>
+
+
+        </section>
+
+      </article>
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+            </ul>
+          </section>
+      </article>
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="./assets/js/script_2.js"></script>
+</body>
+
+</html>

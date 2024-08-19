@@ -1,0 +1,21 @@
+[
+    {
+      "imageSrc": "./assets/images/",
+      "imageAlt": "alt foto",
+      "category": "categoria",
+      "date": "fecha",
+      "title": "titulo",
+      "text": "texto",
+      "url": "redireccion pagina noticia"
+    },
+    {
+      "imageSrc": "./assets/images/",
+      "imageAlt": "alt foto",
+      "category": "categoria",
+      "date": "fecha",
+      "title": "titulo",
+      "text": "texto",
+      "url": "redireccion pagina noticia"
+    }
+  ]
+  
