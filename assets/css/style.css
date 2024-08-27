@@ -519,6 +519,17 @@ button.resume::before {
   display: inline-block;
 }
 
+/* Oculta el texto "Resume" y muestra solo "Currículum" en el botón con clase "resume" */
+button.Experiencia {
+  font-size: 0;
+}
+
+button.Experiencia::before {
+  content: "Educación";
+  font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
+  display: inline-block;
+}
+
 /* Oculta el texto "Portfolio" y muestra solo "Portafolio" en el botón con clase "portfolio" */
 button.portfolio {
   font-size: 0;
